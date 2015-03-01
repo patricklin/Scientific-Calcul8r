@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Calculator</string>
 
+    <string name="dispHint">Start your calculations!</string>
+    <string name="disp">  </string>
+
+    <!-- Numerals -->
     <string name="zero">0</string>
     <string name="one">1</string>
     <string name="two">2</string>
@@ -12,18 +16,43 @@
     <string name="eight">8</string>
     <string name="nine">9</string>
 
-    <string name="dispHint">Start your calculations!</string>
-    <string name="disp">  </string>
+    <!-- Number entry -->
+    <string name="negative">(-)</string>
+    <string name="decimal">.</string>
+    <string name="ee">EE</string>
 
+    <!-- Basic operators -->
     <string name="div">/</string>
     <string name="mul">*</string>
     <string name="add">+</string>
     <string name="sub">-</string>
     <string name="equal">=</string>
-    <string name="negative">-</string>
-    <string name="decimal">.</string>
+
+    <!-- Text entry -->
     <string name="back">←</string>
     <string name="clear">clr</string>
+
+    <!-- Constants -->
+    <string name="pi">π</string>
+    <string name="e">e</string>
+
+    <!-- Exponents, logarithms, and roots -->
+    <string name="ln">ln</string>
+    <string name="log">log</string>
+    <string name="root">root</string>
+    <string name="power">pow</string>
+
+    <!-- Trigonometry -->
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="asin">asin</string>
+    <string name="acos">acos</string>
+    <string name="atan">atan</string>
+
+    <!-- Grouping -->
+    <string name="lparen">(</string>
+    <string name="rparen">)</string>
 
 
     <string name="action_settings">Settings</string>
