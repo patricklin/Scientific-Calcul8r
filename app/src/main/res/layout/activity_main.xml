@@ -45,7 +45,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -56,7 +57,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -67,7 +69,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -78,7 +81,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -89,7 +93,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -100,7 +105,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
     </LinearLayout>
     <LinearLayout android:orientation="horizontal"
         android:layout_width="fill_parent"
@@ -118,7 +124,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -129,7 +136,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -140,7 +148,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -151,7 +160,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -162,7 +172,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -173,7 +184,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
     </LinearLayout>
     <LinearLayout
         style="?android:attr/buttonBarStyle"
@@ -193,7 +205,8 @@
             android:text="@string/pi"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -204,7 +217,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -215,7 +229,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -226,7 +241,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -237,7 +253,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -248,7 +265,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
     </LinearLayout>
     <LinearLayout android:orientation="horizontal"
         android:layout_width="fill_parent"
@@ -267,7 +285,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -278,7 +297,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -289,7 +309,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -300,7 +321,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -311,7 +333,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -322,7 +345,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
     </LinearLayout>
     <LinearLayout android:orientation="horizontal"
         android:layout_width="fill_parent"
@@ -341,7 +365,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -352,7 +377,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -363,7 +389,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -374,7 +401,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -385,7 +413,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -396,7 +425,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
     </LinearLayout>
     <LinearLayout android:orientation="horizontal"
         android:layout_width="fill_parent"
@@ -415,7 +445,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -426,7 +457,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -437,7 +469,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -448,7 +481,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -459,7 +493,8 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_weight="1"
@@ -470,6 +505,7 @@
             android:textAllCaps="false"
             android:textColor="#ffcc00"
             android:background="@drawable/calcbutton"
-            android:typeface="sans" />
+            android:typeface="sans"
+            android:onClick="onClick"/>
     </LinearLayout>
 </LinearLayout>

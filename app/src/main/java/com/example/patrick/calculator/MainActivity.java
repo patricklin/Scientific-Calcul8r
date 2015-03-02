@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import com.example.patrick.calculator.R;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
@@ -40,43 +41,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
         equal = (Button) findViewById(R.id.equal);
 
         disp = (EditText) findViewById(R.id.display);
-
-        try{
-            one.setOnClickListener(this);
-
-            two.setOnClickListener(this);
-
-            three.setOnClickListener(this);
-
-            four.setOnClickListener(this);
-
-            five.setOnClickListener(this);
-
-            six.setOnClickListener(this);
-
-            seven.setOnClickListener(this);
-
-            eight.setOnClickListener(this);
-
-            nine.setOnClickListener(this);
-
-            zero.setOnClickListener(this);
-
-            //clear.setOnClickListener(this);
-
-            add.setOnClickListener(this);
-
-            sub.setOnClickListener(this);
-
-            mul.setOnClickListener(this);
-
-            div.setOnClickListener(this);
-
-            equal.setOnClickListener(this);
-        }
-        catch(Exception e){
-
-        }
     }
     /*public void operation(){
         if(optr.equals("+")){
