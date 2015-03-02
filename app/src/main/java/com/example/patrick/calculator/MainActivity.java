@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import com.example.patrick.calculator.R;
 
-public class MainActivity extends Activity implements View.OnClickListener{
+public class MainActivity extends Activity implements View.OnClickListener {
 
     Button one, two, three, four, five, six, seven, eight, nine, zero, add, sub, mul, div, cancel, equal;
     EditText disp;
@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
         disp = (EditText) findViewById(R.id.display);
     }
+
     /*public void operation(){
         if(optr.equals("+")){
             op2 = Integer.parseInt(disp.getText().toString());
@@ -70,15 +71,51 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }*/
     @Override
     public void onClick(View v) {
-        Editable str =  disp.getText();
+        Editable str = disp.getText();
         Button b = (Button) v;
-        if(v.getId() == R.id.equal) {
-            //do some shit
-        } else if(v.getId() == R.id.clear) {
-            disp.setText("");
-        }else {
-            str.append(b.getText().toString());
-            disp.setText(str);
+        int id = v.getId();
+
+        switch (id) {
+            case R.id.equal:
+                //run parser
+                break;
+            case R.id.clear:
+                //disp.setText("");
+                str.clear();
+                break;
+            case R.id.back:
+                if (str.length() != 0) {
+                    String s = str.toString();
+                    s = s.substring(0, s.length()-1);
+                    str = Editable.Factory.getInstance().newEditable(s);
+                    break;
+                }
+            case R.id.power:
+                str.append('^');
+                break;
+            case R.id.ee:
+                str.append('E');
+                break;
+            case R.id.negative:
+                str.append('-');
+                break;
+            case R.id.root:
+                str.append("sqrt(");
+                break;
+            case R.id.sin:
+            case R.id.cos:
+            case R.id.tan:
+            case R.id.asin:
+            case R.id.acos:
+            case R.id.atan:
+            case R.id.ln:
+                str.append(b.getText().toString());
+                str.append('(');
+                break;
+            default:
+                str.append(b.getText().toString());
+                //disp.setText(str);
         }
+        disp.setText(str);
     }
 }
