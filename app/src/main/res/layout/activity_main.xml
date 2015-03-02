@@ -10,10 +10,17 @@
     tools:context=".Home"
     android:background="#fff" >
 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="4"
+        android:id="@+id/calcHistory" />
+
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/disp"
+        android:lines="2"
         android:id = "@+id/display"
         android:hint="@string/dispHint" />
 
