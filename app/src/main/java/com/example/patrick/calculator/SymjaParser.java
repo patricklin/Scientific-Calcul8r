@@ -13,7 +13,13 @@ import org.matheclipse.parser.client.math.MathException;
  * @author Bryan Nguyen
  */
 public class SymjaParser {
-    public static String toSymja(String input) {
+    EvalUtilities util;
+
+    public SymjaParser() {
+        util = new EvalUtilities(false, true);
+    }
+
+    public String toSymja(String input) {
         /* No conversion needed:
          *   numerals
          *   + - * /
@@ -24,9 +30,16 @@ public class SymjaParser {
          *   E --> (decimal)E
          *   sin cos tan --> Sin Cos Tan
          *   user assigned variables --> $
+         * If numerical:
+         *   surround string with N()
          */
-        EvalUtilities util = new EvalUtilities(false, true);
-        IExpr result = util.evaluate(input);
-        return result.toString();
+        try {
+            IExpr result = util.evaluate(input);
+            return result.toString();
+        } catch (SyntaxError e) {
+            return "Syntax error";
+        } catch (MathException e) {
+            return "Math error";
+        }
     }
 }
